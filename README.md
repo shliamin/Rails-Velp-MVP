@@ -1,24 +1,25 @@
-# README
+# Rails Velp MVP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the Rails Velp MVP! This Ruby on Rails project serves as a minimal viable product (MVP) for a Yelp-like review platform where users can explore and review local businesses. This application combines the robustness of Rails with straightforward functionalities that cater to essential user needs.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- **User Authentication**: Secure signup and login functionalities.
+- **Business Listings**: Users can add and view details of various businesses.
+- **Reviews and Ratings**: Users can post reviews and rate businesses on a five-point scale.
+- **Search and Filter**: Search for businesses by name or category and filter results.
 
-* System dependencies
+## Requirements
 
-* Configuration
+- Ruby 2.7 or newer
+- Rails 6.0 or newer
+- PostgreSQL
 
-* Database creation
+## Getting Started
 
-* Database initialization
+Clone the repository to your local machine:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+git clone https://github.com/shliamin/Rails-Velp-MVP.git
+cd Rails-Velp-MVP
+```
