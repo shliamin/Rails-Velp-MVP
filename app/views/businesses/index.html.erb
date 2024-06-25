@@ -1,0 +1,15 @@
+<div class="box">
+    <h1>Businesses</h1>
+    <h2>Efim Shliamin</h2>
+    <%= link_to 'New Business', new_business_path, class: 'button' %>
+    <ul>
+    <% @businesses.each do |business| %>
+        <li>
+        <%= link_to business.name, business_path(business) %>
+        <%= link_to 'Edit', edit_business_path(business) %>
+        <%= link_to 'Destroy', business_path(business), method: :delete, data: { confirm: 'Are you sure?' } %>
+        </li>
+    <% end %>
+    </ul>
+</div>
+

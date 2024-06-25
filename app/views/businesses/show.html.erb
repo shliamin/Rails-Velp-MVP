@@ -1,0 +1,8 @@
+<h1><%= @business.name %></h1>
+<p><%= @business.description %></p>
+<p><%= @business.address %></p>
+<p><%= @business.phone %></p>
+<p><%= @business.website %></p>
+<%= link_to 'Edit', edit_business_path(@business) %>
+<%= link_to 'Back', businesses_path %>
+<%= link_to 'Destroy', business_path(@business), method: :delete, data: { confirm: 'Are you sure?' } %>
