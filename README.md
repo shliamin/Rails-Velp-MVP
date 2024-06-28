@@ -16,7 +16,7 @@ Rails Velp MVP is a Ruby on Rails application designed as a minimal viable produ
 
 - Ruby 3.1.0
 - Rails 6.1.0
-- SQLite3
+- PostgreSQL
 
 ## Installation
 
@@ -41,8 +41,6 @@ Rails Velp MVP is a Ruby on Rails application designed as a minimal viable produ
    rails server
    ```
 
-5. Open your browser and navigate to:
-   [http://localhost:3000](http://localhost:3000)
 
 ## Usage
 
